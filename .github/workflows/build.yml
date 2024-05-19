@@ -33,5 +33,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=GabrielGutierrezQuispe_S11_AP7_RETO_GQ13
-          push: true
-          tags: gabrielgutierrezquispe/sonar-cloud:v1
