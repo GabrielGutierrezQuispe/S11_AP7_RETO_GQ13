@@ -1,0 +1,8 @@
+server:
+    port: 8085
+
+spring:
+    r2dbc:
+        url: r2dbc:postgresql://roundhouse.proxy.rlwy.net:16870/railway
+        username: postgres
+        password: oNAgdYmHTawcTfLahbErCSnkjpXqOMrB
