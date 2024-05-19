@@ -39,5 +39,6 @@ jobs:
   
       - name: Build Docker image
         run: docker build -t ${{ secrets.DOCKER_USERNAME }}/as221s5_t06_be:latest .
+        
       - name: Push Docker image to Docker Hub
         run: docker push ${{ secrets.DOCKER_USERNAME }}/as221s5_t06_be:latest
